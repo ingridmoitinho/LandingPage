@@ -16,7 +16,6 @@ body {
 #cabecalho {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
     padding: 20px;
 }
 
