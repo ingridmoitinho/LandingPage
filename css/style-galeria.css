@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+body {
+    background-image: linear-gradient(to right top, #081f13, #0a2718, #0c301e, #0e3923, #104228, #0e442b, #0c462f, #094832, #054333, #053e33, #083933, #0c3431);  
+}
+
+/* Estilização cabeçalho */
+
+#cabecalho {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+#cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.capa{
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;   
+}
+
+.capa-titulo{
+    color: #fff2e7;
+    position: absolute;
+    word-wrap: unset;
+    top: 210px;
+    text-transform: uppercase;
+}
+
+.capa-titulo h1{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    padding-left: 5px;  
+ }
+
+ .capa-titulo h3 {
+    font-family: 'Sarala', sans-serif;
+    color: #81f177;
+    font-weight: 300;
+    font-size: 17px;
+    padding-left: 25px;
+ }
+
+ /* Estilização conteudo principal */
+.conteudo {
+    border-top: 0.4px solid #fff2e7;  
+}
+
+.conteudo-titulo {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #fff2e7;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.conteudo-imagem {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-imagem {
+    column-count: 3;
+   
+}
+.titulo-video{
+    border-top: 0.4px solid #fff2e7;  
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #fff2e7;
+    padding-top: 20px;
+    padding-bottom: 40px;
+ }
+
+ #video {
+    display: flex ;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+
+/* Estilização rodape */
+
+ footer {
+    border-top: 0.4px solid #fff2e7;  
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+  	color: #f5f5f5;
+	padding: 10px;
+	text-align: center;
+    letter-spacing: 1px;
+    padding: 20px;  
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_social_media {
+    margin-bottom: 1rem;
+  
+}
+
+#footer_social_media .footer-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #f5f5f5;
+    border-radius: 50%;
+    transition: all 0.4s;
+    margin: 0 auto;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+
+}
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+#email {
+    background: rgb(196, 38, 38);
+}
+
+.footer-logo{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    display: inline-flex;  
+}
+
+.footer-menu-item {
+	font-family: 'Inter', sans-serif;
+    padding: 20px;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+		 
+}
